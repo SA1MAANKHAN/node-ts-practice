@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+  font-family: sans-serif;
+}
+body {
+  height: 100vh;
+  width: 100vw;
+
+  display: grid;
+  place-content: center;
+
+  background-image: url("../assets/img.jpg");
+  background-size: 100% 120%;
+}
+
+h1 {
+  font-size: calc(3vh + 3vw);
+  color: white;
+}
+
+p {
+  color: rgb(255, 255, 255);
+  font-style: italic;
+}
